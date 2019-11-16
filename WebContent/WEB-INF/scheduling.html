@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+header {
+    background-color:MediumSeaGreen;
+    color:LightGrey;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:MediumSeaGreen;
+    color:LightGrey;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Please Enter your information and Click the Submit button to book your appointment </h1>
+</header>
+
+<nav>
+<a href="/webprojecJAMJ/scheduling.html">Search Data</a> <br>
+</nav>
+
+<section>
+	<h1>User Input</h1>
+	
+	<form action="Scheduling" method="POST">
+	
+		First Name: <input type="text" name="fname"> <br />
+		Last Name: <input type="text" name="lname"> <br />
+		Phone: <input type="text" name="phone"> <br />
+		Email: <input type="text" name="email"> <br />
+		Address: <input type="text" name="address"> <br />
+		Date: <input type="date" name="date"> <br />
+		Time: <input type="time" name="time"> <br />
+		Service: <input type="text" name="service"> <br />
+		
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
